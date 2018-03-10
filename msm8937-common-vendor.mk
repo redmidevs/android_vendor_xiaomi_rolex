@@ -523,8 +523,8 @@ PRODUCT_COPY_FILES += \
 PRODUCT_PACKAGES += \
     libgpustats \
     libsdm-disp-vndapis \
-    libtime_genoff \
     libloc_api_v02 \
+    libtime_genoff \
     QtiTelephonyService \
     ims \
     imssettings \
