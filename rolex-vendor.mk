@@ -98,26 +98,26 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/rolex/proprietary/etc/camera/s5k5e8_qtech_riva_india_chromatix.xml:system/etc/camera/s5k5e8_qtech_riva_india_chromatix.xml \
     vendor/xiaomi/rolex/proprietary/etc/camera/s5k5e8_sunny_chromatix.xml:system/etc/camera/s5k5e8_sunny_chromatix.xml \
     vendor/xiaomi/rolex/proprietary/etc/camera/sony_imx486_ii_chromatix.xml:system/etc/camera/sony_imx486_ii_chromatix.xml \
-    vendor/xiaomi/rolex/proprietary/etc/firmware/cpp_firmware_v1_10_0.fw:system/etc/firmware/cpp_firmware_v1_10_0.fw \
-    vendor/xiaomi/rolex/proprietary/etc/firmware/cpp_firmware_v1_12_0.fw:system/etc/firmware/cpp_firmware_v1_12_0.fw \
-    vendor/xiaomi/rolex/proprietary/etc/firmware/cpp_firmware_v1_1_1.fw:system/etc/firmware/cpp_firmware_v1_1_1.fw \
-    vendor/xiaomi/rolex/proprietary/etc/firmware/cpp_firmware_v1_1_6.fw:system/etc/firmware/cpp_firmware_v1_1_6.fw \
-    vendor/xiaomi/rolex/proprietary/etc/firmware/cpp_firmware_v1_2_0.fw:system/etc/firmware/cpp_firmware_v1_2_0.fw \
-    vendor/xiaomi/rolex/proprietary/etc/firmware/cpp_firmware_v1_4_0.fw:system/etc/firmware/cpp_firmware_v1_4_0.fw \
-    vendor/xiaomi/rolex/proprietary/etc/firmware/cpp_firmware_v1_5_0.fw:system/etc/firmware/cpp_firmware_v1_5_0.fw \
-    vendor/xiaomi/rolex/proprietary/etc/firmware/cpp_firmware_v1_5_2.fw:system/etc/firmware/cpp_firmware_v1_5_2.fw \
-    vendor/xiaomi/rolex/proprietary/etc/firmware/cpp_firmware_v1_6_0.fw:system/etc/firmware/cpp_firmware_v1_6_0.fw \
-    vendor/xiaomi/rolex/proprietary/etc/firmware/cpp_firmware_v1_8_0.fw:system/etc/firmware/cpp_firmware_v1_8_0.fw \
-    vendor/xiaomi/rolex/proprietary/etc/firmware/nvm_tlv.bin:system/etc/firmware/nvm_tlv.bin \
-    vendor/xiaomi/rolex/proprietary/etc/firmware/nvm_tlv_1.3.bin:system/etc/firmware/nvm_tlv_1.3.bin \
-    vendor/xiaomi/rolex/proprietary/etc/firmware/nvm_tlv_2.1.bin:system/etc/firmware/nvm_tlv_2.1.bin \
-    vendor/xiaomi/rolex/proprietary/etc/firmware/nvm_tlv_3.0.bin:system/etc/firmware/nvm_tlv_3.0.bin \
-    vendor/xiaomi/rolex/proprietary/etc/firmware/nvm_tlv_3.2.bin:system/etc/firmware/nvm_tlv_3.2.bin \
-    vendor/xiaomi/rolex/proprietary/etc/firmware/rampatch_tlv.img:system/etc/firmware/rampatch_tlv.img \
-    vendor/xiaomi/rolex/proprietary/etc/firmware/rampatch_tlv_1.3.tlv:system/etc/firmware/rampatch_tlv_1.3.tlv \
-    vendor/xiaomi/rolex/proprietary/etc/firmware/rampatch_tlv_2.1.tlv:system/etc/firmware/rampatch_tlv_2.1.tlv \
-    vendor/xiaomi/rolex/proprietary/etc/firmware/rampatch_tlv_3.0.tlv:system/etc/firmware/rampatch_tlv_3.0.tlv \
-    vendor/xiaomi/rolex/proprietary/etc/firmware/rampatch_tlv_3.2.tlv:system/etc/firmware/rampatch_tlv_3.2.tlv \
+    vendor/xiaomi/rolex/proprietary/vendor/firmware/cpp_firmware_v1_10_0.fw:system/vendor/firmware/cpp_firmware_v1_10_0.fw \
+    vendor/xiaomi/rolex/proprietary/vendor/firmware/cpp_firmware_v1_12_0.fw:system/vendor/firmware/cpp_firmware_v1_12_0.fw \
+    vendor/xiaomi/rolex/proprietary/vendor/firmware/cpp_firmware_v1_1_1.fw:system/vendor/firmware/cpp_firmware_v1_1_1.fw \
+    vendor/xiaomi/rolex/proprietary/vendor/firmware/cpp_firmware_v1_1_6.fw:system/vendor/firmware/cpp_firmware_v1_1_6.fw \
+    vendor/xiaomi/rolex/proprietary/vendor/firmware/cpp_firmware_v1_2_0.fw:system/vendor/firmware/cpp_firmware_v1_2_0.fw \
+    vendor/xiaomi/rolex/proprietary/vendor/firmware/cpp_firmware_v1_4_0.fw:system/vendor/firmware/cpp_firmware_v1_4_0.fw \
+    vendor/xiaomi/rolex/proprietary/vendor/firmware/cpp_firmware_v1_5_0.fw:system/vendor/firmware/cpp_firmware_v1_5_0.fw \
+    vendor/xiaomi/rolex/proprietary/vendor/firmware/cpp_firmware_v1_5_2.fw:system/vendor/firmware/cpp_firmware_v1_5_2.fw \
+    vendor/xiaomi/rolex/proprietary/vendor/firmware/cpp_firmware_v1_6_0.fw:system/vendor/firmware/cpp_firmware_v1_6_0.fw \
+    vendor/xiaomi/rolex/proprietary/vendor/firmware/cpp_firmware_v1_8_0.fw:system/vendor/firmware/cpp_firmware_v1_8_0.fw \
+    vendor/xiaomi/rolex/proprietary/vendor/firmware/nvm_tlv.bin:system/vendor/firmware/nvm_tlv.bin \
+    vendor/xiaomi/rolex/proprietary/vendor/firmware/nvm_tlv_1.3.bin:system/vendor/firmware/nvm_tlv_1.3.bin \
+    vendor/xiaomi/rolex/proprietary/vendor/firmware/nvm_tlv_2.1.bin:system/vendor/firmware/nvm_tlv_2.1.bin \
+    vendor/xiaomi/rolex/proprietary/vendor/firmware/nvm_tlv_3.0.bin:system/vendor/firmware/nvm_tlv_3.0.bin \
+    vendor/xiaomi/rolex/proprietary/vendor/firmware/nvm_tlv_3.2.bin:system/vendor/firmware/nvm_tlv_3.2.bin \
+    vendor/xiaomi/rolex/proprietary/vendor/firmware/rampatch_tlv.img:system/vendor/firmware/rampatch_tlv.img \
+    vendor/xiaomi/rolex/proprietary/vendor/firmware/rampatch_tlv_1.3.tlv:system/vendor/firmware/rampatch_tlv_1.3.tlv \
+    vendor/xiaomi/rolex/proprietary/vendor/firmware/rampatch_tlv_2.1.tlv:system/vendor/firmware/rampatch_tlv_2.1.tlv \
+    vendor/xiaomi/rolex/proprietary/vendor/firmware/rampatch_tlv_3.0.tlv:system/vendor/firmware/rampatch_tlv_3.0.tlv \
+    vendor/xiaomi/rolex/proprietary/vendor/firmware/rampatch_tlv_3.2.tlv:system/vendor/firmware/rampatch_tlv_3.2.tlv \
     vendor/xiaomi/rolex/proprietary/vendor/lib/libactuator_ad5816g.so:system/vendor/lib/libactuator_ad5816g.so \
     vendor/xiaomi/rolex/proprietary/vendor/lib/libactuator_ad5823.so:system/vendor/lib/libactuator_ad5823.so \
     vendor/xiaomi/rolex/proprietary/vendor/lib/libactuator_ak7345.so:system/vendor/lib/libactuator_ak7345.so \
