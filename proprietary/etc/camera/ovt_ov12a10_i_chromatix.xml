@@ -94,19 +94,7 @@ special_mode_mask values:
       <CPPLiveshot>ovt_ov12a10_i_cpp_liveshot</CPPLiveshot>
       <A3Preview>ovt_ov12a10_i_zsl_preview_dw9763</A3Preview>
       <A3Video>ovt_ov12a10_i_zsl_video_dw9763</A3Video>
-  </ChromatixName>
-  <ChromatixName sensor_resolution_index="0" special_mode_mask="HHT_CHROMATIX">
-      <ISPPreview>ovt_ov12a10_i_preview</ISPPreview>
-      <ISPSnapshot>ovt_ov12a10_i_snapshot</ISPSnapshot>
-      <ISPVideo>ovt_ov12a10_i_default_video</ISPVideo>
-      <CPPPreview>ovt_ov12a10_i_cpp_preview</CPPPreview>
-      <CPPSnapshot>ovt_ov12a10_i_cpp_snapshot_hht</CPPSnapshot>
-      <CPPVideo>ovt_ov12a10_i_cpp_video</CPPVideo>
-      <CPPLiveshot>ovt_ov12a10_i_cpp_liveshot</CPPLiveshot>
-      <A3Preview>ovt_ov12a10_i_zsl_preview_dw9763</A3Preview>
-      <A3Video>ovt_ov12a10_i_zsl_video_dw9763</A3Video>
-  </ChromatixName>
-
+    </ChromatixName>
     <ChromatixName sensor_resolution_index="1" special_mode_mask="0">
       <ISPPreview>ovt_ov12a10_i_4K</ISPPreview>
       <ISPSnapshot>ovt_ov12a10_i_4K</ISPSnapshot>
@@ -117,35 +105,13 @@ special_mode_mask values:
       <CPPLiveshot>ovt_ov12a10_i_cpp_4K</CPPLiveshot>
       <A3Preview>ovt_ov12a10_i_4K_preview_dw9763</A3Preview>
       <A3Video>ovt_ov12a10_i_4K_video_dw9763</A3Video>
-  </ChromatixName>
-  <ChromatixName sensor_resolution_index="1" special_mode_mask="HHT_CHROMATIX">
-      <ISPPreview>ovt_ov12a10_i_4K</ISPPreview>
-      <ISPSnapshot>ovt_ov12a10_i_4K</ISPSnapshot>
-      <ISPVideo>ovt_ov12a10_i_4K</ISPVideo>
-      <CPPPreview>ovt_ov12a10_i_cpp_4K</CPPPreview>
-	  <CPPSnapshot>ovt_ov12a10_i_cpp_snapshot_hht</CPPSnapshot>
-      <CPPVideo>ovt_ov12a10_i_cpp_4K</CPPVideo>
-      <CPPLiveshot>ovt_ov12a10_i_cpp_4K</CPPLiveshot>
-      <A3Preview>ovt_ov12a10_i_4K_preview_dw9763</A3Preview>
-      <A3Video>ovt_ov12a10_i_4K_video_dw9763</A3Video>
-  </ChromatixName>
-  <ChromatixName sensor_resolution_index="2" special_mode_mask="0">
+    </ChromatixName>
+    <ChromatixName sensor_resolution_index="2" special_mode_mask="0">
       <ISPPreview>ovt_ov12a10_i_preview</ISPPreview>
       <ISPSnapshot>ovt_ov12a10_i_snapshot</ISPSnapshot>
       <ISPVideo>ovt_ov12a10_i_default_video</ISPVideo>
       <CPPPreview>ovt_ov12a10_i_cpp_preview</CPPPreview>
       <CPPSnapshot>ovt_ov12a10_i_cpp_snapshot</CPPSnapshot>
-      <CPPVideo>ovt_ov12a10_i_cpp_video</CPPVideo>
-      <CPPLiveshot>ovt_ov12a10_i_cpp_liveshot</CPPLiveshot>
-      <A3Preview>ovt_ov12a10_i_default_preview_dw9763</A3Preview>
-      <A3Video>ovt_ov12a10_i_default_video_dw9763</A3Video>
-  </ChromatixName>
-  <ChromatixName sensor_resolution_index="2" special_mode_mask="HHT_CHROMATIX">
-      <ISPPreview>ovt_ov12a10_i_preview</ISPPreview>
-      <ISPSnapshot>ovt_ov12a10_i_snapshot</ISPSnapshot>
-      <ISPVideo>ovt_ov12a10_i_default_video</ISPVideo>
-      <CPPPreview>ovt_ov12a10_i_cpp_preview</CPPPreview>
-	  <CPPSnapshot>ovt_ov12a10_i_cpp_snapshot_hht</CPPSnapshot>
       <CPPVideo>ovt_ov12a10_i_cpp_video</CPPVideo>
       <CPPLiveshot>ovt_ov12a10_i_cpp_liveshot</CPPLiveshot>
       <A3Preview>ovt_ov12a10_i_default_preview_dw9763</A3Preview>

@@ -109,18 +109,7 @@ special_mode_mask values:
       <CPPLiveshot>ovt_ov5675_i_cpp_liveshot_torch</CPPLiveshot>
       <A3Preview>ovt_ov5675_i_zsl_preview_3a_torch</A3Preview>
       <A3Video>ovt_ov5675_i_zsl_video_3a_torch</A3Video>
-  </ChromatixName>
-  <ChromatixName sensor_resolution_index="0" special_mode_mask="HHT_CHROMATIX">
-      <ISPPreview>ovt_ov5675_i_snapshot</ISPPreview>
-      <ISPSnapshot>ovt_ov5675_i_snapshot</ISPSnapshot>
-      <ISPVideo>ovt_ov5675_i_snapshot</ISPVideo>
-      <CPPPreview>ovt_ov5675_i_cpp_preview</CPPPreview>
-      <CPPSnapshot>ovt_ov5675_i_cpp_snapshot_hht</CPPSnapshot>
-      <CPPVideo>ovt_ov5675_i_cpp_video</CPPVideo>
-      <CPPLiveshot>ovt_ov5675_i_cpp_liveshot</CPPLiveshot>
-      <A3Preview>ovt_ov5675_i_zsl_preview_3a</A3Preview>
-      <A3Video>ovt_ov5675_i_zsl_video_3a</A3Video>
-   </ChromatixName>
+    </ChromatixName>
     <ChromatixName sensor_resolution_index="1" special_mode_mask="0">
       <ISPPreview>ovt_ov5675_i_snapshot</ISPPreview>
       <ISPSnapshot>ovt_ov5675_i_snapshot</ISPSnapshot>
@@ -142,17 +131,6 @@ special_mode_mask values:
       <CPPLiveshot>ovt_ov5675_i_cpp_liveshot_torch</CPPLiveshot>
       <A3Preview>ovt_ov5675_i_default_preview_3a_torch</A3Preview>
       <A3Video>ovt_ov5675_i_default_video_3a_torch</A3Video>
-  </ChromatixName>
-  <ChromatixName sensor_resolution_index="1" special_mode_mask="HHT_CHROMATIX">
-      <ISPPreview>ovt_ov5675_i_snapshot</ISPPreview>
-      <ISPSnapshot>ovt_ov5675_i_snapshot</ISPSnapshot>
-      <ISPVideo>ovt_ov5675_i_snapshot</ISPVideo>
-      <CPPPreview>ovt_ov5675_i_cpp_preview</CPPPreview>
-      <CPPSnapshot>ovt_ov5675_i_cpp_snapshot_hht</CPPSnapshot>
-      <CPPVideo>ovt_ov5675_i_cpp_video</CPPVideo>
-      <CPPLiveshot>ovt_ov5675_i_cpp_liveshot</CPPLiveshot>
-      <A3Preview>ovt_ov5675_i_default_preview_3a</A3Preview>
-      <A3Video>ovt_ov5675_i_default_video_3a</A3Video>
     </ChromatixName>
     <ChromatixName sensor_resolution_index="2" special_mode_mask="0">
       <ISPPreview>ovt_ov5675_i_hfr_60</ISPPreview>

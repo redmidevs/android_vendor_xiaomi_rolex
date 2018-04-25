@@ -78,9 +78,12 @@ special_mode_mask values:
 
 <ChromatixConfigurationRoot>
   <CommonChromatixInfo>
-    <ChromatixName specific_mode_mask="0">
+    <ChromatixName>
       <ISPCommon>sony_imx486_ii_india_common</ISPCommon>
       <PostProc>sony_imx486_ii_india_postproc</PostProc>
+      <CPPPreview>sony_imx486_ii_india_cpp_preview</CPPPreview>
+      <CPPSnapshot>sony_imx486_ii_india_cpp_snapshot</CPPSnapshot>
+      <CPPLiveshot>sony_imx486_ii_india_cpp_liveshot</CPPLiveshot>
     </ChromatixName>
   </CommonChromatixInfo>
   <ResolutionChromatixInfo>
@@ -88,20 +91,6 @@ special_mode_mask values:
       <ISPPreview>sony_imx486_ii_india_snapshot</ISPPreview>
       <ISPSnapshot>sony_imx486_ii_india_snapshot</ISPSnapshot>
       <ISPVideo>sony_imx486_ii_india_default_video</ISPVideo>
-      <CPPPreview>sony_imx486_ii_india_cpp_preview</CPPPreview>
-      <CPPSnapshot>sony_imx486_ii_india_cpp_snapshot</CPPSnapshot>
-      <CPPLiveshot>sony_imx486_ii_india_cpp_liveshot</CPPLiveshot>
-      <CPPVideo>sony_imx486_ii_india_cpp_video</CPPVideo>
-      <A3Preview>sony_imx486_ii_india_zsl_preview_dw9714v</A3Preview>
-      <A3Video>sony_imx486_ii_india_zsl_video_dw9714v</A3Video>
-    </ChromatixName>
-    <ChromatixName sensor_resolution_index="0" special_mode_mask="HHT_CHROMATIX">
-      <ISPPreview>sony_imx486_ii_india_snapshot</ISPPreview>
-      <ISPSnapshot>sony_imx486_ii_india_snapshot</ISPSnapshot>
-      <ISPVideo>sony_imx486_ii_india_default_video</ISPVideo>
-      <CPPPreview>sony_imx486_ii_india_cpp_preview</CPPPreview>
-      <CPPSnapshot>sony_imx486_ii_india_cpp_snapshot_hht</CPPSnapshot>
-      <CPPLiveshot>sony_imx486_ii_india_cpp_liveshot</CPPLiveshot>
       <CPPVideo>sony_imx486_ii_india_cpp_video</CPPVideo>
       <A3Preview>sony_imx486_ii_india_zsl_preview_dw9714v</A3Preview>
       <A3Video>sony_imx486_ii_india_zsl_video_dw9714v</A3Video>
@@ -110,20 +99,6 @@ special_mode_mask values:
       <ISPPreview>sony_imx486_ii_india_preview</ISPPreview>
       <ISPSnapshot>sony_imx486_ii_india_preview</ISPSnapshot>
       <ISPVideo>sony_imx486_ii_india_preview</ISPVideo>
-      <CPPPreview>sony_imx486_ii_india_cpp_preview</CPPPreview>
-      <CPPSnapshot>sony_imx486_ii_india_cpp_snapshot</CPPSnapshot>
-      <CPPLiveshot>sony_imx486_ii_india_cpp_liveshot</CPPLiveshot>
-      <CPPVideo>sony_imx486_ii_india_cpp_video</CPPVideo>
-      <A3Preview>sony_imx486_ii_india_default_preview_dw9714v</A3Preview>
-      <A3Video>sony_imx486_ii_india_default_video_dw9714v</A3Video>
-    </ChromatixName>
-    <ChromatixName sensor_resolution_index="1" special_mode_mask="HHT_CHROMATIX">
-      <ISPPreview>sony_imx486_ii_india_preview</ISPPreview>
-      <ISPSnapshot>sony_imx486_ii_india_preview</ISPSnapshot>
-      <ISPVideo>sony_imx486_ii_india_preview</ISPVideo>
-      <CPPPreview>sony_imx486_ii_india_cpp_preview</CPPPreview>
-      <CPPSnapshot>sony_imx486_ii_india_cpp_snapshot_hht</CPPSnapshot>
-      <CPPLiveshot>sony_imx486_ii_india_cpp_liveshot</CPPLiveshot>
       <CPPVideo>sony_imx486_ii_india_cpp_video</CPPVideo>
       <A3Preview>sony_imx486_ii_india_default_preview_dw9714v</A3Preview>
       <A3Video>sony_imx486_ii_india_default_video_dw9714v</A3Video>
@@ -133,19 +108,13 @@ special_mode_mask values:
       <ISPSnapshot>sony_imx486_ii_india_hfr_60</ISPSnapshot>
       <ISPVideo>sony_imx486_ii_india_hfr_60</ISPVideo>
       <CPPVideo>sony_imx486_ii_india_cpp_hfr_60</CPPVideo>
-      <CPPPreview>sony_imx486_ii_india_cpp_preview</CPPPreview>
-      <CPPSnapshot>sony_imx486_ii_india_cpp_snapshot</CPPSnapshot>
-      <CPPLiveshot>sony_imx486_ii_india_cpp_liveshot</CPPLiveshot>
       <A3Preview>sony_imx486_ii_india_hfr_60_dw9714v</A3Preview>
-      <A3Video>sony_imx486_ii_india_default_video_dw9714v</A3Video>
+      <A3Video>sony_imx486_ii_india_hfr_60_dw9714v</A3Video>
     </ChromatixName>
     <ChromatixName sensor_resolution_index="3">
       <ISPPreview>sony_imx486_ii_india_hfr_90</ISPPreview>
       <ISPSnapshot>sony_imx486_ii_india_hfr_90</ISPSnapshot>
       <ISPVideo>sony_imx486_ii_india_hfr_90</ISPVideo>
-      <CPPPreview>sony_imx486_ii_india_cpp_preview</CPPPreview>
-      <CPPSnapshot>sony_imx486_ii_india_cpp_snapshot</CPPSnapshot>
-      <CPPLiveshot>sony_imx486_ii_india_cpp_liveshot</CPPLiveshot>
       <CPPVideo>sony_imx486_ii_india_cpp_hfr_90</CPPVideo>
       <A3Preview>sony_imx486_ii_india_hfr_90_dw9714v</A3Preview>
       <A3Video>sony_imx486_ii_india_hfr_90_dw9714v</A3Video>
@@ -154,9 +123,6 @@ special_mode_mask values:
       <ISPPreview>sony_imx486_ii_india_hfr_120</ISPPreview>
       <ISPSnapshot>sony_imx486_ii_india_hfr_120</ISPSnapshot>
       <ISPVideo>sony_imx486_ii_india_hfr_120</ISPVideo>
-      <CPPPreview>sony_imx486_ii_india_cpp_preview</CPPPreview>
-      <CPPSnapshot>sony_imx486_ii_india_cpp_snapshot</CPPSnapshot>
-      <CPPLiveshot>sony_imx486_ii_india_cpp_liveshot</CPPLiveshot>
       <CPPVideo>sony_imx486_ii_india_cpp_hfr_120</CPPVideo>
       <A3Preview>sony_imx486_ii_india_hfr_120_dw9714v</A3Preview>
       <A3Video>sony_imx486_ii_india_hfr_120_dw9714v</A3Video>
