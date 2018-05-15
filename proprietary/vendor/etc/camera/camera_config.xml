@@ -84,7 +84,7 @@ LensInfo : Information of the lens present in the module.
 *VARIABLES MARKED WITH ASTRICK (*) ARE MANDATORY.
  -->
 <CameraConfigurationRoot>
-<CameraModuleConfig>
+  <CameraModuleConfig>
     <CameraId>0</CameraId>
     <SensorName>ov13850_q13v06k</SensorName>
     <ActuatorName>dw9714</ActuatorName>
@@ -110,25 +110,52 @@ LensInfo : Information of the lens present in the module.
     </LensInfo>
   </CameraModuleConfig>
   <CameraModuleConfig>
-    <CameraId>2</CameraId>
-    <SensorName>ov5675</SensorName>
-    <EepromName>ov5675</EepromName>
-    <ChromatixName>ov5675_d5v15b_chromatix</ChromatixName>
+    <CameraId>0</CameraId>
+    <SensorName>s5k3l8_ofilm_riva</SensorName>
+    <ActuatorName>dw9714_s5k3l8_riva</ActuatorName>
+    <EepromName>s5k3l8_ofilm_riva</EepromName>
+    <FlashName>gpio</FlashName>
+    <ChromatixName>s5k3l8_ofilm_riva_chromatix</ChromatixName>
     <ModesSupported>1</ModesSupported>
-    <Position>FRONT</Position>
-    <MountAngle>270</MountAngle>
+    <Position>BACK</Position>
+    <MountAngle>90</MountAngle>
     <CSIInfo>
-      <CSIDCore>1</CSIDCore>
-      <LaneMask>0x7</LaneMask>
+      <CSIDCore>0</CSIDCore>
+      <LaneMask>0x1F</LaneMask>
       <LaneAssign>0x4320</LaneAssign>
       <ComboMode>0</ComboMode>
     </CSIInfo>
     <LensInfo>
-      <FocalLength>2.17</FocalLength>
+      <FocalLength>3.79</FocalLength>
       <FNumber>2.2</FNumber>
       <TotalFocusDistance>1.2</TotalFocusDistance>
-      <HorizontalViewAngle>68.0</HorizontalViewAngle>
-      <VerticalViewAngle>51.0</VerticalViewAngle>
+      <HorizontalViewAngle>75.7</HorizontalViewAngle>
+      <VerticalViewAngle>61.8</VerticalViewAngle>
+      <MinFocusDistance>0.1</MinFocusDistance>
+    </LensInfo>
+  </CameraModuleConfig>
+  <CameraModuleConfig>
+    <CameraId>0</CameraId>
+    <SensorName>ov13855_qtech</SensorName>
+    <ActuatorName>fp5510e2_ov13855</ActuatorName>
+    <EepromName>ov13855_qtech</EepromName>
+    <FlashName>gpio</FlashName>
+    <ChromatixName>ov13855_qtech_chromatix</ChromatixName>
+    <ModesSupported>1</ModesSupported>
+    <Position>BACK</Position>
+    <MountAngle>90</MountAngle>
+    <CSIInfo>
+      <CSIDCore>0</CSIDCore>
+      <LaneMask>0x1F</LaneMask>
+      <LaneAssign>0x4320</LaneAssign>
+      <ComboMode>0</ComboMode>
+    </CSIInfo>
+    <LensInfo>
+      <FocalLength>3.79</FocalLength>
+      <FNumber>2.2</FNumber>
+      <TotalFocusDistance>2.73</TotalFocusDistance>
+      <HorizontalViewAngle>69.5</HorizontalViewAngle>
+      <VerticalViewAngle>49.9</VerticalViewAngle>
       <MinFocusDistance>0.1</MinFocusDistance>
     </LensInfo>
   </CameraModuleConfig>
@@ -157,50 +184,119 @@ LensInfo : Information of the lens present in the module.
       <MinFocusDistance>0.1</MinFocusDistance>
     </LensInfo>
   </CameraModuleConfig>
-<CameraModuleConfig>
-  <CameraId>2</CameraId>
-  <SensorName>s5k5e8</SensorName>
-  <EepromName>s5k5e8</EepromName>
-  <ChromatixName>s5k5e8_chromatix</ChromatixName>
-  <ModesSupported>1</ModesSupported>
-  <Position>FRONT</Position>
-  <MountAngle>270</MountAngle>
-  <CSIInfo>
-    <CSIDCore>1</CSIDCore>
-    <LaneMask>0x7</LaneMask>
-    <LaneAssign>0x4320</LaneAssign>
-    <ComboMode>0</ComboMode>
-  </CSIInfo>
-  <LensInfo>
-    <FocalLength>2.17</FocalLength>
-    <FNumber>2.2</FNumber>
-    <TotalFocusDistance>1.2</TotalFocusDistance>
-    <HorizontalViewAngle>68.0</HorizontalViewAngle>
-    <VerticalViewAngle>51.0</VerticalViewAngle>
-    <MinFocusDistance>0.1</MinFocusDistance>
-  </LensInfo>
-</CameraModuleConfig>
-<CameraModuleConfig>
-  <CameraId>2</CameraId>
-  <SensorName>s5k5e8_ofilm</SensorName>
-  <EepromName>s5k5e8_ofilm</EepromName>
-  <ChromatixName>s5k5e8_ofilm_chromatix</ChromatixName>
-  <ModesSupported>1</ModesSupported>
-  <Position>FRONT</Position>
-  <MountAngle>270</MountAngle>
-  <CSIInfo>
-    <CSIDCore>1</CSIDCore>
-    <LaneMask>0x7</LaneMask>
-    <LaneAssign>0x4320</LaneAssign>
-    <ComboMode>0</ComboMode>
-  </CSIInfo>
-  <LensInfo>
-    <FocalLength>2.17</FocalLength>
-    <FNumber>2.2</FNumber>
-    <TotalFocusDistance>1.2</TotalFocusDistance>
-    <HorizontalViewAngle>68.0</HorizontalViewAngle>
-    <VerticalViewAngle>51.0</VerticalViewAngle>
-    <MinFocusDistance>0.1</MinFocusDistance>
-  </LensInfo>
-</CameraModuleConfig>
+  <CameraModuleConfig>
+    <CameraId>2</CameraId>
+    <SensorName>ov5675</SensorName>
+    <EepromName>ov5675</EepromName>
+    <ChromatixName>ov5675_d5v15b_chromatix</ChromatixName>
+    <ModesSupported>1</ModesSupported>
+    <Position>FRONT</Position>
+    <MountAngle>270</MountAngle>
+    <CSIInfo>
+      <CSIDCore>1</CSIDCore>
+      <LaneMask>0x7</LaneMask>
+      <LaneAssign>0x4320</LaneAssign>
+      <ComboMode>0</ComboMode>
+    </CSIInfo>
+    <LensInfo>
+      <FocalLength>2.17</FocalLength>
+      <FNumber>2.2</FNumber>
+      <TotalFocusDistance>1.2</TotalFocusDistance>
+      <HorizontalViewAngle>68.0</HorizontalViewAngle>
+      <VerticalViewAngle>51.0</VerticalViewAngle>
+      <MinFocusDistance>0.1</MinFocusDistance>
+    </LensInfo>
+  </CameraModuleConfig>
+  <CameraModuleConfig>
+    <CameraId>2</CameraId>
+    <SensorName>s5k5e8</SensorName>
+    <EepromName>s5k5e8</EepromName>
+    <ChromatixName>s5k5e8_chromatix</ChromatixName>
+    <ModesSupported>1</ModesSupported>
+    <Position>FRONT</Position>
+    <MountAngle>270</MountAngle>
+    <CSIInfo>
+      <CSIDCore>1</CSIDCore>
+      <LaneMask>0x7</LaneMask>
+      <LaneAssign>0x4320</LaneAssign>
+      <ComboMode>0</ComboMode>
+    </CSIInfo>
+    <LensInfo>
+      <FocalLength>2.17</FocalLength>
+      <FNumber>2.2</FNumber>
+      <TotalFocusDistance>1.2</TotalFocusDistance>
+      <HorizontalViewAngle>68.0</HorizontalViewAngle>
+      <VerticalViewAngle>51.0</VerticalViewAngle>
+      <MinFocusDistance>0.1</MinFocusDistance>
+    </LensInfo>
+  </CameraModuleConfig>
+  <CameraModuleConfig>
+    <CameraId>2</CameraId>
+    <SensorName>s5k5e8_ofilm</SensorName>
+    <EepromName>s5k5e8_ofilm</EepromName>
+    <ChromatixName>s5k5e8_ofilm_chromatix</ChromatixName>
+    <ModesSupported>1</ModesSupported>
+    <Position>FRONT</Position>
+    <MountAngle>270</MountAngle>
+    <CSIInfo>
+      <CSIDCore>1</CSIDCore>
+      <LaneMask>0x7</LaneMask>
+      <LaneAssign>0x4320</LaneAssign>
+      <ComboMode>0</ComboMode>
+    </CSIInfo>
+    <LensInfo>
+      <FocalLength>2.17</FocalLength>
+      <FNumber>2.2</FNumber>
+      <TotalFocusDistance>1.2</TotalFocusDistance>
+      <HorizontalViewAngle>68.0</HorizontalViewAngle>
+      <VerticalViewAngle>51.0</VerticalViewAngle>
+      <MinFocusDistance>0.1</MinFocusDistance>
+    </LensInfo>
+  </CameraModuleConfig>
+  <CameraModuleConfig>
+    <CameraId>2</CameraId>
+    <SensorName>s5k5e8_ofilm_riva</SensorName>
+    <EepromName>s5k5e8_ofilm_riva</EepromName>
+    <ChromatixName>s5k5e8_ofilm_riva_chromatix</ChromatixName>
+    <ModesSupported>1</ModesSupported>
+    <Position>FRONT</Position>
+    <MountAngle>270</MountAngle>
+    <CSIInfo>
+      <CSIDCore>1</CSIDCore>
+      <LaneMask>0x7</LaneMask>
+      <LaneAssign>0x4320</LaneAssign>
+      <ComboMode>0</ComboMode>
+    </CSIInfo>
+    <LensInfo>
+      <FocalLength>2.63</FocalLength>
+      <FNumber>2.0</FNumber>
+      <TotalFocusDistance>1.2</TotalFocusDistance>
+      <HorizontalViewAngle>69.2</HorizontalViewAngle>
+      <VerticalViewAngle>51.0</VerticalViewAngle>
+      <MinFocusDistance>0.1</MinFocusDistance>
+    </LensInfo>
+  </CameraModuleConfig>
+  <CameraModuleConfig>
+    <CameraId>2</CameraId>
+    <SensorName>s5k5e8_qtech_riva</SensorName>
+    <EepromName>s5k5e8_qtech_riva</EepromName>
+    <ChromatixName>s5k5e8_qtech_riva_chromatix</ChromatixName>
+    <ModesSupported>1</ModesSupported>
+    <Position>FRONT</Position>
+    <MountAngle>270</MountAngle>
+    <CSIInfo>
+      <CSIDCore>1</CSIDCore>
+      <LaneMask>0x7</LaneMask>
+      <LaneAssign>0x4320</LaneAssign>
+      <ComboMode>0</ComboMode>
+    </CSIInfo>
+    <LensInfo>
+      <FocalLength>2.63</FocalLength>
+      <FNumber>2.0</FNumber>
+      <TotalFocusDistance>1.1</TotalFocusDistance>
+      <HorizontalViewAngle>72.4</HorizontalViewAngle>
+      <VerticalViewAngle>47.3</VerticalViewAngle>
+      <MinFocusDistance>0.1</MinFocusDistance>
+    </LensInfo>
+  </CameraModuleConfig>
 </CameraConfigurationRoot>
