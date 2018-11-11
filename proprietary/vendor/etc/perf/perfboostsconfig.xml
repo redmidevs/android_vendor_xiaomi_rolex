@@ -23,9 +23,22 @@
         <!-- GPU_MIN_PWRLVL resource opcode, value-->
         <!-- SWAP_RATIO resource opcode, value-->
 
-        <!-- Type="1", main launch boost of 2sec -->
+        <!-- Type="1", main launch boost of 3sec -->
         <Config
-            Id="0x00001081" Type="1" Enable="true" Timeout="2000" Target="msm8937"
+            Id="0x00001081" Type="1" Enable="true" Timeout="3000" Target="msm8937"
+            Resources="0x40C00000, 0x1, 0x40800000, 0x5DC, 0x40400000, 0x1, 0x41000000, 0x4, 0x42804000, 0x1, 0x42C0C000, 0x64" />
+
+    <!--resume boost-->
+        <!-- SCHEDBOOST resource opcode, value-->
+        <!-- CPUBOOST_MIN_FREQ BIG Core resource opcode, value-->
+        <!-- DISABLE_POWER_COLLAPSE resource opcode, value-->
+        <!-- CLUSTR_0_CPUS_ON resource opcode, value-->
+        <!-- GPU_MIN_PWRLVL resource opcode, value-->
+        <!-- SWAP_RATIO resource opcode, value-->
+
+        <!-- Type="1", main launch boost of 0.3sec -->
+        <Config
+            Id="0x00001081" Type="1" Enable="true" Timeout="300" Target="msm8937"
             Resources="0x40C00000, 0x1, 0x40800000, 0x5DC, 0x40400000, 0x1, 0x41000000, 0x4, 0x42804000, 0x1, 0x42C0C000, 0x64" />
 
     <!--app lauch boost (disabling packing)-->
@@ -46,7 +59,7 @@
 
         <!-- Type="1", Animation boost of 0.6sec -->
         <Config
-            Id="0x00001083" Type="1" Enable="true" Timeout="600" Target="msm8937"
+            Id="0x00001083" Type="1" Enable="true" Timeout="800" Target="msm8937"
             Resources="0x40C00000, 0x1, 0x40800000, 0x44C, 0x42804000, 0x1" />
 
     <!--Vertical Scroll boost-->
