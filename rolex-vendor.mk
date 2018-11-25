@@ -111,6 +111,7 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/rolex/proprietary/framework/com.quicinc.cne.jar:system/framework/com.quicinc.cne.jar \
     vendor/xiaomi/rolex/proprietary/framework/izat.xt.srv.jar:system/framework/izat.xt.srv.jar \
     vendor/xiaomi/rolex/proprietary/framework/qcrilhook.jar:system/framework/qcrilhook.jar \
+    vendor/xiaomi/rolex/proprietary/framework/qti-telephony-common.jar:system/framework/qti-telephony-common.jar \
     vendor/xiaomi/rolex/proprietary/lib/com.qualcomm.qti.imscmservice@1.0.so:system/lib/com.qualcomm.qti.imscmservice@1.0.so \
     vendor/xiaomi/rolex/proprietary/lib/lib-imscamera.so:system/lib/lib-imscamera.so \
     vendor/xiaomi/rolex/proprietary/lib/lib-imsvideocodec.so:system/lib/lib-imsvideocodec.so \
